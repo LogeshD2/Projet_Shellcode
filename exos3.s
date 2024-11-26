@@ -1,5 +1,5 @@
 section .data
-fichier db "dossier", 0
+fichier db "test.txt", 0
 
 msg_error_open_file db "Erreur lors de l'ouverture du fichier", 10, 0
 len_msg_error_open_file equ $-msg_error_open_file
